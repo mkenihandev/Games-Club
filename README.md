@@ -14,3 +14,8 @@ To begin with, I had drawn up a simple layout of what I imagined the site to loo
 ![3 images showing basic Home, Tournaments and Sign Up pages layout. Games Club heading, underneath writes: A place for gaming meetups and torunaments. Provides user with info about the club, meetup times, types of games played. Tournament page details where, when and games being played as well as bracket.](/assets/images/page1.jpg)
 
 ![More details for website, it reads: Sign up page is just for the club, seperate sign up sheet on tournaments page. Sign up includes your preferred platform between PC, Xbox, Playstation or Switch, to better your understanding with other members. In brackets reads "Maybe include a members page in future versions of site?". Social Media links in footer provide users with other methods of finding information about the club, in brackets: "Facebook page posts pics of events, twitter posts meetup times for example". Header always the same as to not confuse the user.](assets/images/page2.jpg)
+
+The goal of these sketches and details was to get a rough outline of what a user interested in a Games Club would be looking for, between what the Club actually does, to what times they actually meet up. The basic sketches provided a very simple way to lay the foundations of how I would want the website to look. In particular I wanted this website to look fun and welcoming first and foremost as to reel in anyone interested but also provide an easy, readable experience for any user who is unsure as they don't need difficult website navigation weighing on top of everything else.
+
+## Features of the Website
+<hr>
