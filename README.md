@@ -11,3 +11,6 @@ The Users of this website, the target being people who are enthusiastic about vi
 
 To begin with, I had drawn up a simple layout of what I imagined the site to look like, as well as detailed descriptions of how I would want each page to function for the user.
 
+![3 images showing basic Home, Tournaments and Sign Up pages layout. Games Club heading, underneath writes: A place for gaming meetups and torunaments. Provides user with info about the club, meetup times, types of games played. Tournament page details where, when and games being played as well as bracket.](/assets/images/page1.jpg)
+
+![More details for website, it reads: Sign up page is just for the club, seperate sign up sheet on tournaments page. Sign up includes your preferred platform between PC, Xbox, Playstation or Switch, to better your understanding with other members. In brackets reads "Maybe include a members page in future versions of site?". Social Media links in footer provide users with other methods of finding information about the club, in brackets: "Facebook page posts pics of events, twitter posts meetup times for example". Header always the same as to not confuse the user.](assets/images/page2.jpg)
