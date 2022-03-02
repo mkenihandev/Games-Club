@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu+Mono&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+body {
+    background: url('#') no-repeat top center / contain;
+    background-color: #E3EDE0;
+    font-family: 'Ubuntu Mono', sans-serif;
+    text-align: center;
+}
 
 
 /* About section */
@@ -11,24 +19,30 @@
 #about {
     display: grid;
     grid-template-columns: 1rem 1fr 1rem;
-    grid-template-rows: 1rem min-content 2fr 1rem;
+    grid-template-rows: 0.2rem min-content 2fr 0.2rem;
     margin: 10px;
-    height: 1000px;
+    height: auto;
     border: 1px solid;
     gap: 10px;
     padding: 10px;
 }
 
 #about-image {
-    background: url('../images/about-image.png') no-repeat center center / contain;
+    background: url('../images/homepage-image-1.png') no-repeat center center / contain;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     min-height: 100%;
-    border: 1px solid;
+    height: 155px;
+    border-radius: 10px;
 }
 
 #about-text {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
-    border: 1px solid;
+    border-radius: 10px;
+    margin: 16px;
+    position: relative;
+    bottom: 50px;
+    background-color: rgba(211, 100, 82, 0.8);
+    padding: 10px;
 }
