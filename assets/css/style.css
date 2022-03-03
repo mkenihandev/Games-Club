@@ -14,6 +14,56 @@ body {
 }
 
 
+/* Header and Navbar */
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 10px;
+    margin: 10px;
+    height: 10vh;
+    border-bottom: 2px solid rgba(211, 100, 82, 1);
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(211, 100, 82, 1);
+    text-transform: uppercase;
+    font-size: 120%;
+}
+
+nav a:hover {
+    color: #d3bea0;
+    text-decoration: underline;
+}
+
+#logo {
+    background: url('../images/trophy-icon.png') no-repeat center center / contain;
+    grid-row: 1 / 4;
+    grid-column: 1 / 2;
+}
+
+#home {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+    text-align: right;
+}
+
+#tourny {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+    text-align: right;
+}
+
+#signup {
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+    text-align: right;
+}
+
+
+
 /* About section */
 
 #about {
@@ -28,11 +78,10 @@ body {
 }
 
 #about-image {
-    background: url('../images/homepage-image-1.png') no-repeat center center / contain;
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    background: url(../images/homepage-image-1.png) 0 0 / 100% 100% no-repeat;
+    grid-area: 2 / 2 / 3 / 3;
     min-height: 100%;
-    height: 155px;
+    height: 20vh;
     border-radius: 10px;
 }
 
