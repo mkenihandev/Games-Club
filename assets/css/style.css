@@ -15,57 +15,54 @@ body {
 }
 
 
-/* Header and Navbar */
+/* ---------------------------------------------------------Header/Navbar---------------------------------------------------------  */
 
 nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
     padding: 10px;
     margin: 10px;
     height: 10vh;
     border-bottom: 2px solid rgba(211, 100, 82, 1);
 }
 
-nav a {
-    text-decoration: none;
-    color: rgba(211, 100, 82, 1);
+#menu {
+    display: grid;
+    grid-template-columns:  1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    list-style-type: none;
     text-transform: uppercase;
-    font-size: 120%;
-}
-
-nav a:hover {
-    color: #d3bea0;
-    text-decoration: underline;
 }
 
 #logo {
     background: url('../images/trophy-icon.png') no-repeat center center / contain;
-    grid-row: 1 / 4;
     grid-column: 1 / 2;
+    grid-row: 1 / 4;
 }
 
 #home {
-    grid-row: 1 / 2;
-    grid-column: 3 / 4;
-    text-align: right;
+    grid-column: 2 / 3;
 }
 
 #tourny {
-    grid-row: 2 / 3;
-    grid-column: 3 / 4;
-    text-align: right;
+    grid-column: 2 / 3;
 }
 
 #signup {
-    grid-row: 3 / 4;
-    grid-column: 3 / 4;
-    text-align: right;
+    grid-column: 2 / 3;
+}
+
+#menu a {
+    color: rgba(211, 100, 82, 1);
+    text-decoration: none;
+    font-size: 120%;
+}
+
+#menu a:hover {
+    text-decoration: underline;
 }
 
 
 
-/* About section */
+/* ---------------------------------------------------------About Section---------------------------------------------------------  */
 
 #about {
     display: grid;
@@ -96,7 +93,7 @@ nav a:hover {
     padding: 10px;
 }
 
-/* Meetup Section */
+/* ---------------------------------------------------------Meetup Section---------------------------------------------------------  */
 
 #meetup {
     display: grid;
@@ -134,7 +131,12 @@ nav a:hover {
     border-radius: 10px;
 }
 
-/* Footer  */
+
+
+
+
+
+/* ---------------------------------------------------------Footer---------------------------------------------------------  */
 
 footer {
     height: 100px;
@@ -148,6 +150,7 @@ footer {
     font-size: 150%;
     align-items: center;
     padding-top: 30px;
+    list-style-type: none;
 }
 
 #social i {
