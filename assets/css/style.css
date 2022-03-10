@@ -131,4 +131,25 @@ nav a:hover {
     background-color: rgba(211, 100, 82, 0.8);
     padding: 10px;
     border-bottom: 1px solid;
+    border-radius: 10px;
+}
+
+/* Footer  */
+
+footer {
+    height: 100px;
+}
+
+#social {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    font-size: 150%;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#social i {
+    color: rgba(211, 100, 82, 1);
 }
