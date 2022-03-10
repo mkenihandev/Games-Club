@@ -131,10 +131,47 @@ nav {
     border-radius: 10px;
 }
 
+/* ---------------------------------------------------------Tournaments Page---------------------------------------------------------  */
+
+#tournaments {
+    display: grid;
+    grid-template-columns: 1rem 1fr 1rem;
+    grid-template-rows: 25vh min-content min-content;
+}
 
 
+#tournaments-image {
+    background: url('../images/trophypage-image.png') no-repeat center center / contain;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    border-radius: 15px;
+}
 
+#tournaments-about {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: rgba(211, 100, 82, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    bottom: 40px;
+}
 
+#tournaments-form {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    padding: 10px;
+    background-color: rgba(211, 100, 82, 0.8);
+    font-size: 110%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#tournaments-form fieldset {
+    border: 1px solid #E3EDE0;
+    border-radius: 10px;
+    padding: 10px;
+}
 
 /* ---------------------------------------------------------Footer---------------------------------------------------------  */
 
