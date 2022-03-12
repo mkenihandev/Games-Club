@@ -155,16 +155,21 @@ nav {
     padding: 10px;
     position: relative;
     bottom: 40px;
+    max-width: 75vw;
+    margin: 0 auto;
 }
 
 #tournaments-form {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
     padding: 10px;
+    margin: 0 auto;
     background-color: rgba(211, 100, 82, 0.8);
     font-size: 110%;
     border-radius: 10px;
-    text-align: center;
+    text-align: left;
+    min-width: 300px;
+    align-items: center;
 }
 
 #tournaments-form fieldset {
@@ -173,10 +178,17 @@ nav {
     padding: 10px;
 }
 
+label {
+    display: block;
+}
+
 /* ---------------------------------------------------------Footer---------------------------------------------------------  */
 
 footer {
     height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 #social {
