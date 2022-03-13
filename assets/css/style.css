@@ -42,6 +42,13 @@ input[type=submit]:hover {
 }
 
 
+fieldset {
+    border: 1px solid #E3EDE0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
 /* ---------------------------------------------------------Header/Navbar---------------------------------------------------------  */
 
 nav {
@@ -210,14 +217,47 @@ nav {
     align-items: center;
 }
 
-#tournaments-form fieldset {
-    border: 1px solid #E3EDE0;
-    border-radius: 10px;
-    padding: 10px;
-}
-
 label {
     display: block;
+}
+
+/* ---------------------------------------------------------Tournaments Page---------------------------------------------------------  */
+
+#signup-page {
+    display: grid;
+    grid-template-columns: 1rem 1fr 1rem;
+    grid-template-rows: min-content min-content;
+    gap: 10px;
+}
+
+#signup-about {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-color: rgba(211, 100, 82, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    max-width: 40vw;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+
+#signup-form {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: rgba(211, 100, 82, 0.8);
+    font-size: 110%;
+    border-radius: 10px;
+    text-align: left;
+    min-width: 300px;
+    align-items: center;
+}
+
+.display-right label {
+    display: inline-block;
 }
 
 

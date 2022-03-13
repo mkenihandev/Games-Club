@@ -29,8 +29,78 @@
         </nav>
     </header>
 
-    <section>
+    <section id="signup-page">
+        <div id="signup-about">
+            <h2>Sign Up to Games Club Here!</h2>
+            <p>Here you can sign up to be a member of Games Club. There are many optional choices here that are not required to fill out, 
+                but would greatly help with introducing you to the rest of the club!</p>
+        </div>
+        <div id="signup-form">
+            <form method="POST" action="https://formdump.codeinstitute.net/">
+                <fieldset>
+                    <legend>Your Details</legend>
+                    
+                    <div>
+                        <label for="name-field">Name:</label>
+                        <input type="text" id="name-field" name="full_name" placeholder="Your Name Here" required>
+                    </div>
+                    <div>
+                        <label for="email-field">Email:</label>
+                        <input type="email" id="email-field" name="email" placeholder="Your Email Here" required>
+                    </div>
+                    <div>
+                        <label for="age-field">Age:</label>
+                        <input type="number" id="age-field" name="age" placeholder="18" min="18">
+                    </div>
+                </fieldset>
 
+                <fieldset> 
+                    <legend>Favorite Games *Optional</legend>
+
+                    <div>
+                        <label for="game-1">First Game:</label>
+                        <input type="text" id="game-1" name="game_one">
+                    </div>
+                    <div>
+                        <label for="game-2">Second Game:</label>
+                        <input type="text" id="game-2" name="game_two">
+                    </div>
+                    <div>
+                        <label for="game-3">Third Game:</label>
+                        <input type="text" id="game-3" name="game_three">
+                    </div>
+                </fieldset>
+
+                <fieldset class="display-right">
+                    <legend>Favorite Platform *Optional</legend>
+
+                    <div>
+                        <input type="checkbox" id="pc-checkbox" name="pc">  
+                        <label for="pc-checkbox">PC</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="playstation-checkbox" name="playstation">
+                        <label for="playstation-checkbox">Playstation</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="xbox-checkbox" name="xbox">
+                        <label for="xbox-checkbox">Xbox</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="nintendo-checkbox" name="nintendo">
+                        <label for="nintendo-checkbox">Nintendo Systems</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="ouya-checkbox" name="ouya">
+                        <label for="ouya-checkbox">Ouya</label>
+                    </div>	
+                </fieldset>
+
+                <div>
+                    <input type="submit" value="Submit Application">
+                </div>
+            </form>
+        </div>
     </section>
 
 
