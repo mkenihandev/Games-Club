@@ -14,6 +14,33 @@ body {
     color: #E3EDE0;
 }
 
+/* ---------------------------------------------------------General Form Style---------------------------------------------------------  */
+
+input:focus, select:focus, textarea:focus{
+    outline: none;
+}
+
+input {
+    height: 20px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+input[type=submit] {
+    height: 26px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgba(211, 100, 82, 1);
+    color: #E3EDE0;
+}
+
+input[type=submit]:hover {
+    color: rgba(211, 100, 82, 1);
+    background-color: #E3EDE0;
+}
+
 
 /* ---------------------------------------------------------Header/Navbar---------------------------------------------------------  */
 
@@ -91,6 +118,17 @@ nav {
     bottom: 50px;
     background-color: rgba(211, 100, 82, 0.8);
     padding: 10px;
+}
+
+#about-text a {
+    color: #ac4e3f;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#about-text a:hover {
+    color: rgba(211, 100, 82, 1);
+    text-decoration: underline;
 }
 
 /* ---------------------------------------------------------Meetup Section---------------------------------------------------------  */
@@ -182,13 +220,13 @@ label {
     display: block;
 }
 
+
 /* ---------------------------------------------------------Footer---------------------------------------------------------  */
+
 
 footer {
     height: 100px;
     width: 100%;
-    position: fixed;
-    bottom: 0;
 }
 
 #social {
