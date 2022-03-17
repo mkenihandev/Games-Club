@@ -53,6 +53,11 @@ fieldset {
 }
 
 
+label {
+    display: block;
+}
+
+
 /* ---------------------------------------------------------Header/Navbar---------------------------------------------------------  */
 
 nav {
@@ -198,7 +203,6 @@ nav {
 
 #tournaments-heading {
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
     background-color: rgba(211, 100, 82, 0.8);
     border-radius: 10px;
     padding: 10px;
@@ -208,11 +212,17 @@ nav {
     margin: 0 auto;
 }
 
-label {
-    display: block;
+#tournaments-video {
+    grid-column: 2 / 3;
+    max-width: 100%;
 }
 
-/* ---------------------------------------------------------Tournaments Page---------------------------------------------------------  */
+video {
+    width: 100%;
+    height: auto;
+}
+
+/* ---------------------------------------------------------Sign Up Page---------------------------------------------------------  */
 
 #signup-page {
     display: grid;

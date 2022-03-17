@@ -50,3 +50,5 @@ The goal of these sketches and details was to get a rough outline of what a user
     * Each link opens in a new tab, as to not take the user back and forth between websites.
 
 ![Image of the footer. Features three icons of each popular website in a contrasting color to the background](assets/images/readme-images/footer.PNG)
+
+Credit to RODNAE Productions for the video featured on the tournaments page: https://www.pexels.com/video/men-playing-computer-gaming-7914780/
