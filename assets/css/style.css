@@ -128,13 +128,13 @@ nav {
 }
 
 #about-text a {
-    color: #ac4e3f;
+    color: #415172;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 #about-text a:hover {
-    color: rgba(211, 100, 82, 1);
+    color: #975583;
     text-decoration: underline;
 }
 

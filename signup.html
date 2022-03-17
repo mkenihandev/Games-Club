@@ -10,6 +10,9 @@
     <title>Document</title>
 </head>
 <body>
+
+    <!-- ---------------------------------------------------------Header------------------------------------------------------------ -->
+
     <header>
         <nav>
             <ul id="menu">
@@ -29,14 +32,20 @@
         </nav>
     </header>
 
+    <!-- ---------------------------------------------------------Signup Page------------------------------------------------------------ -->
+
     <section id="signup-page">
         <div id="signup-about">
             <h2>Sign Up to Games Club Here!</h2>
             <p>Here you can sign up to be a member of Games Club. There are many optional choices here that are not required to fill out, 
                 but would greatly help with introducing you to the rest of the club!</p>
         </div>
+
         <div id="signup-form">
             <form method="POST" action="https://formdump.codeinstitute.net/">
+
+                <!-- ---------------------------------------------------------Details------------------------------------------------------------ -->
+
                 <fieldset>
                     <legend>Your Details</legend>
                     
@@ -50,10 +59,12 @@
                     </div>
                     <div>
                         <label for="age-field">Age:</label>
-                        <input type="number" id="age-field" name="age" placeholder="18" min="18">
+                        <input type="number" id="age-field" name="age" placeholder="18" min="18" required>
                     </div>
                 </fieldset>
 
+                <!-- ---------------------------------------------------------Favorite Games------------------------------------------------------------ -->
+            
                 <fieldset> 
                     <legend>Favorite Games *Optional</legend>
 
@@ -70,6 +81,8 @@
                         <input type="text" id="game-3" name="game_three">
                     </div>
                 </fieldset>
+
+                <!-- ---------------------------------------------------------Favorite Platform------------------------------------------------------------ -->
 
                 <fieldset class="display-right">
                     <legend>Favorite Platform *Optional</legend>
@@ -96,6 +109,8 @@
                     </div>	
                 </fieldset>
 
+                <!-- ---------------------------------------------------------Submit------------------------------------------------------------ -->
+
                 <div>
                     <input type="submit" value="Submit Application">
                 </div>
@@ -103,6 +118,7 @@
         </div>
     </section>
 
+    <!-- ---------------------------------------------------------Footer------------------------------------------------------------ -->
 
     <footer>
         <ul id="social">
@@ -118,9 +134,9 @@
         </ul>
     </footer>
 
-    <!--Scripts-->
+    <!-- ---------------------------------------------------------Scripts------------------------------------------------------------ -->
+    
     <script src="https://kit.fontawesome.com/acd5f3ebfc.js" crossorigin="anonymous"></script>
-
-
+    
 </body>
 </html>
