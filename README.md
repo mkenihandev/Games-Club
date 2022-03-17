@@ -35,4 +35,18 @@ The goal of these sketches and details was to get a rough outline of what a user
     * The About Us section clearly tells the user what the Club is for, and explains that meetup times will be displayed below so the user knows to scroll.
     * This section also features a link to the tournaments page directly, in case the user would like to sign up immediately after reading about it.
 
-![The hero image and header section of the website, it features an image of two members of the club playing a game together, featuring the website logo in the middle of the screen. The person on the right is excitedly pointing. Below the image is the About Us section of the website.](assets/images/readme-images/header.PNG)
+![The hero image and header section of the website, it features an image of two members of the club playing a game together, with the website logo in the middle of the screen. The person on the right is excitedly pointing. Below the image is the About Us section of the website.](assets/images/readme-images/header.PNG)
+
+* **Meetup Times Section**
+    * The meetup section is on the homepage so a user of the site can immediately find the most relevant information.
+    * This section is a simple list of dates and times displayed over a contrasting image that will expand on larger devices.
+    * The section is quick and concise as to not bog the user down with any information they can seek otherwise.
+
+![Image of the meetup times, as well as quick heading to direct the user to the section. Features a list of days Monday to Friday with the times associated, on top of a background image of the night time cityscape.](assets/images/readme-images/meetup-times.PNG)
+
+* **The Footer**
+    * The footer is a very minimalist collection of recognizable icons for the popular sites Facebook, Twitter, and Instagram.
+    * Each icon is a clickable link that will take the user to those sites. As this is an imaginary Club, they go directly to the homepage of aforementioned websites.
+    * Each link opens in a new tab, as to not take the user back and forth between websites.
+
+![Image of the footer. Features three icons of each popular website in a contrasting color to the background](assets/images/readme-images/footer.PNG)
