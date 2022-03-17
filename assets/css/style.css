@@ -222,6 +222,15 @@ video {
     height: auto;
 }
 
+#tournaments-about {
+    grid-column: 2 / 3;
+    background-color: rgba(211, 100, 82, 0.8);
+    border-radius: .8rem;
+    padding: 10px;
+    max-width: 75vw;
+    margin: 0 auto;
+}
+
 /* ---------------------------------------------------------Sign Up Page---------------------------------------------------------  */
 
 #signup-page {
