@@ -105,7 +105,7 @@ nav {
 
 
 
-/* ---------------------------------------------------------About Section---------------------------------------------------------  */
+/* ---------------------------------------------------------Homepage About Section---------------------------------------------------------  */
 
 #about {
     display: grid;
@@ -292,4 +292,62 @@ footer {
 
 #social i {
     color: rgba(211, 100, 82, 1);
+}
+
+/* ---------------------------------------------------------Media Queries---------------------------------------------------------  */
+
+@media screen and (min-width: 500px) {
+
+    /* ---------------------------------------------------------Header/Navbar---------------------------------------------------------  */
+    
+    #menu {
+        grid-template-columns:  1fr 2fr 2fr 2fr;
+    }
+
+    #home {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    
+    #tourny {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
+    
+    #signup {
+        grid-column: 4 / 5;
+        grid-row: 2 / 3;
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+
+    body {
+        background-color: black;
+    }
+
+    /* ---------------------------------------------------------Homepage About Section---------------------------------------------------------  */
+
+    #about {
+        grid-template-columns: 1rem 1fr 1rem;
+        grid-template-rows: 0.2rem min-content 0.2rem;
+    }
+    
+    #about-image {
+        background: url('../images/homepage-image-1.png') no-repeat center top / cover;
+        grid-area: 2 / 2 / 3 / 3;
+        height: 55vh;
+        width: 100%;
+    }
+    
+    #about-text {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        width: 75vw;
+        height: min-content;
+        margin: 0 auto;
+        position: relative;
+        top: 50%;
+    }
 }
