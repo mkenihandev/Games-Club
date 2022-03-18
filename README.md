@@ -44,11 +44,31 @@ The goal of these sketches and details was to get a rough outline of what a user
 
 ![Image of the meetup times, as well as quick heading to direct the user to the section. Features a list of days Monday to Friday with the times associated, on top of a background image of the night time cityscape.](assets/images/readme-images/meetup-times.PNG)
 
+* **Tournaments Page**
+    * The tournaments page is designed as a competitive "hook" to entice users to sign up to the club further.
+    * The page features an image consistent with the rest of the website, and a quick reminder of when the next tournament is so the most relevant information is immediately available.
+    * Below this is a video of some people gaming, it has controls so the user can scrub the video or fullscreen it. It does not autoplay.
+    * Below the video, is a more in depth explanation of the tournaments hosted at Games Club.
+
+![Image that shows the entire tournaments page. Features the header image and text, as well as the video and explanation in full.](assets/images/readme-images/tournaments.PNG)
+
+* **Sign Up Page**
+    * The sign up page is the final page a user should have to interact with before entering the club. 
+    * First off is an explanation of the upcoming form, which explains that while the user can enter only the required information, it would help other members get to know them if they input more of the optional information.
+    * After this is the form. The only required fields in the form are Name, Email and Age. After this all entries are optional.
+    * It asks the user what their favorite games and platforms are, so they would be better known by existing members of the club.
+
+![Image of the sign up page header, which explains the form below](assets/images/readme-images/signup1.PNG)
+
+![Image of the form on the sign up page, the form includes optional and non optional input fields.](assets/images/readme-images/signup2.PNG)
+
 * **The Footer**
     * The footer is a very minimalist collection of recognizable icons for the popular sites Facebook, Twitter, and Instagram.
     * Each icon is a clickable link that will take the user to those sites. As this is an imaginary Club, they go directly to the homepage of aforementioned websites.
     * Each link opens in a new tab, as to not take the user back and forth between websites.
 
 ![Image of the footer. Features three icons of each popular website in a contrasting color to the background](assets/images/readme-images/footer.PNG)
+
+
 
 Credit to RODNAE Productions for the video featured on the tournaments page: https://www.pexels.com/video/men-playing-computer-gaming-7914780/
