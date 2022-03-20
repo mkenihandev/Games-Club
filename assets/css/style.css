@@ -25,17 +25,17 @@ input:focus, select:focus, textarea:focus{
 }
 
 input {
-    height: 20px;
-    margin: 5px;
-    padding: 5px;
-    border-radius: 3px;
+    height: 1.25rem;
+    margin: 0.3rem;
+    padding: 0.3rem;
+    border-radius: 0.18rem;
 }
 
 input[type=submit] {
-    height: 26px;
-    margin: 5px;
-    padding: 5px;
-    border-radius: 3px;
+    height: 1.6rem;
+    margin: 0.3rem;
+    padding: 0.3rem;
+    border-radius: 0.18rem;
     background-color: rgba(211, 100, 82, 1);
     color: #E3EDE0;
 }
@@ -48,8 +48,8 @@ input[type=submit]:hover {
 
 fieldset {
     border: 1px solid #E3EDE0;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 0.6rem;
+    padding: 0.6rem;
 }
 
 
@@ -61,8 +61,8 @@ label {
 /* ---------------------------------------------------------Header/Navbar---------------------------------------------------------  */
 
 nav {
-    padding: 10px;
-    margin: 10px;
+    padding: 0.6rem;
+    margin: 0.6rem;
     height: 10vh;
     border-bottom: 2px solid rgba(211, 100, 82, 1);
 }
@@ -111,10 +111,10 @@ nav {
     display: grid;
     grid-template-columns: 1rem 1fr 1rem;
     grid-template-rows: 0.2rem min-content 2fr 0.2rem;
-    margin: 10px;
+    margin: 0.6rem;
     height: auto;
-    gap: 10px;
-    padding: 10px;
+    gap: 0.6rem;
+    padding: 0.6rem;
 }
 
 #about-image {
@@ -122,18 +122,18 @@ nav {
     grid-area: 2 / 2 / 3 / 3;
     min-height: 100%;
     height: 20vh;
-    border-radius: 10px;
+    border-radius: 0.6rem;
 }
 
 #about-text {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
-    border-radius: 10px;
-    margin: 16px;
+    border-radius: 0.6rem;
+    margin: 1rem;
     position: relative;
-    bottom: 50px;
+    bottom: 3.12rem;
     background-color: rgba(211, 100, 82, 0.8);
-    padding: 10px;
+    padding: 0.6rem;
 }
 
 #about-text a {
@@ -154,21 +154,21 @@ nav {
     background: url('../images/meetup-image.png') 50% 0 / cover no-repeat;
     grid-template-columns: 1rem 1fr 1rem;
     grid-template-rows: 0.2rem min-content 1fr 0.2rem;
-    margin: 10px;
+    margin: 0.6rem;
     height: auto;
-    gap: 10px;
-    padding: 10px;
-    border-radius: 10px;
+    gap: 0.6rem;
+    padding: 0.6rem;
+    border-radius: 0.6rem;
 }
 
 #meetup-text {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    border-radius: 10px;
+    border-radius: 0.6rem;
     margin: 0 auto;
     position: relative;
     background-color: rgba(211, 100, 82, 0.8);
-    padding: 10px;
+    padding: 0.6rem;
     max-width: 75vw;
     min-width: 25vw;
 }
@@ -177,14 +177,14 @@ nav {
     grid-row: 3 / 4;
     grid-column: 2 / 3;
     text-align: center;
-    padding: 5px;
+    padding: 0.3rem;
 }
 
 #meetup-times > div {
     background-color: rgba(211, 100, 82, 0.8);
-    padding: 10px;
+    padding: 0.6rem;
     border-bottom: 1px solid;
-    border-radius: 10px;
+    border-radius: 0.6rem;
 }
 
 /* ---------------------------------------------------------Tournaments Page---------------------------------------------------------  */
@@ -200,16 +200,16 @@ nav {
     background: url('../images/trophypage-image.png') no-repeat center center / contain;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    border-radius: 15px;
+    border-radius: 10.3rem;
 }
 
 #tournaments-heading {
     grid-column: 2 / 3;
     background-color: rgba(211, 100, 82, 0.8);
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 0.6rem;
+    padding: 0.6rem;
     position: relative;
-    bottom: 40px;
+    bottom: 2.5rem;
     max-width: 75vw;
     margin: 0 auto;
 }
@@ -228,7 +228,7 @@ video {
     grid-column: 2 / 3;
     background-color: rgba(211, 100, 82, 0.8);
     border-radius: .8rem;
-    padding: 10px;
+    padding: 0.6rem;
     max-width: 75vw;
     margin: 0 auto;
 }
@@ -239,18 +239,18 @@ video {
     display: grid;
     grid-template-columns: 1rem 1fr 1rem;
     grid-template-rows: min-content min-content;
-    gap: 10px;
+    gap: 0.6rem;
 }
 
 #signup-about {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     background-color: rgba(211, 100, 82, 0.8);
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 0.6rem;
+    padding: 0.6rem;
     position: relative;
     max-width: 40vw;
-    min-width: 300px;
+    min-width: 18.75rem;
     margin: 0 auto;
 }
 
@@ -258,13 +258,13 @@ video {
 #signup-form {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    padding: 10px;
+    padding: 0.6rem;
     margin: 0 auto;
     background-color: rgba(211, 100, 82, 0.8);
     font-size: 110%;
-    border-radius: 10px;
+    border-radius: 0.6rem;
     text-align: left;
-    min-width: 300px;
+    min-width: 18.75rem;
     align-items: center;
 }
 
@@ -277,7 +277,7 @@ video {
 
 
 footer {
-    height: 100px;
+    height: 6.25rem;
     width: 100%;
 }
 
@@ -288,7 +288,7 @@ footer {
     text-align: center;
     font-size: 150%;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 1.87rem;
     list-style-type: none;
 }
 
@@ -298,7 +298,7 @@ footer {
 
 /* ---------------------------------------------------------Media Queries---------------------------------------------------------  */
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 31.25rem) {
 
     /* ---------------------------------------------------------Header/Navbar---------------------------------------------------------  */
     
