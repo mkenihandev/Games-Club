@@ -165,10 +165,12 @@ nav {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     border-radius: 10px;
-    margin: 16px;
+    margin: 0 auto;
     position: relative;
     background-color: rgba(211, 100, 82, 0.8);
     padding: 10px;
+    max-width: 75vw;
+    min-width: 25vw;
 }
 
 #meetup-times {
@@ -349,5 +351,29 @@ footer {
         margin: 0 auto;
         position: relative;
         top: 50%;
+    }
+
+    /* ---------------------------------------------------------Meetup Section---------------------------------------------------------  */
+
+    #meetup {
+        grid-template-columns: 1rem 1fr 1fr 1fr 1fr 1fr 1rem;
+        grid-template-rows: 0.2rem min-content 1fr 0.2rem;
+        height: 50vh;
+    }
+
+    #meetup-times {
+        grid-column: 2 / 7;
+        position: relative;
+        top: 20%;
+    }
+
+    #meetup-times div {
+        display: inline-block;
+        min-width: 15vw;
+        border: none;
+    }
+
+    #meetup-text {
+        grid-column: 4 / 5;
     }
 }
