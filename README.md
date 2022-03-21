@@ -69,7 +69,7 @@ The goal of these sketches and details was to get a rough outline of what a user
 
 ![Image of the footer. Features three icons of each popular website in a contrasting color to the background](assets/images/readme-images/footer.PNG)
 
-## Bugs
+## Testing and Bug Solving
 <hr>
 
 * **Bugs I solved** 
@@ -80,5 +80,11 @@ The goal of these sketches and details was to get a rough outline of what a user
     * The sign up page labels were giving me trouble in that they would not display next to my checkboxes, but instead above.
     * This was solved by using styling to display the labels inline, as well as swapping the order of the label and input in the html.
 
+* **Validation Testing**
+    * HTML
+        * There were no errors when validated on [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html#textarea)
+
+    * CSS
+        * There were no errors when passed through the [Jigsaw W3C Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input+with_options)
 
 Credit to RODNAE Productions for the video featured on the tournaments page: https://www.pexels.com/video/men-playing-computer-gaming-7914780/
