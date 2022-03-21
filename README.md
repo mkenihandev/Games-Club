@@ -85,6 +85,9 @@ The goal of these sketches and details was to get a rough outline of what a user
     * Initially running the html through the validator gave issues, as I had used many hyphens to create a large "break" in the html.
         * I first solved this using many tilde instead, but this was eventually advised against by a Mentor on Slack and so was removed.
 
+    * Sharing the "finished" site with friends had one of them discover the meetup-times div had blocked the footer links from being clicked.
+        * This was solved by setting the height to min-content on the div.
+
 * **Validation Testing**
     * HTML
         * There were no errors when validated on [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html#textarea)
