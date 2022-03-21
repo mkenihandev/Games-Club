@@ -92,6 +92,13 @@ The goal of these sketches and details was to get a rough outline of what a user
     * CSS
         * There were no errors when passed through the [Jigsaw W3C Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input+with_options)
 
+    * Accessibility 
+        * The site was run through both desktop and mobile Lighthouse and scored above 95 in every section.
+
+![Image of the desktop scores for the website, through lighthouse. 100 Performance 100 Accessibility 100 Best Practices 100 SEO](assets/images/readme-images/lighthouse-desktop.PNG)
+
+![Image of mobile scores for the website through lighthouse. 98 Performance 100 Accessibility 100 Best Practices 95 SEO](assets/images/readme-images/lighthouse-mobile.PNG)
+
 ## Deployment
 <hr>
 
