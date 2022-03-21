@@ -87,4 +87,15 @@ The goal of these sketches and details was to get a rough outline of what a user
     * CSS
         * There were no errors when passed through the [Jigsaw W3C Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input+with_options)
 
-Credit to RODNAE Productions for the video featured on the tournaments page: https://www.pexels.com/video/men-playing-computer-gaming-7914780/
+## Credits
+<hr>
+
+**Content**
+    
+* The template for the project was taken from [Code Institutes Full Template](https://github.com/Code-Institute-Org/gitpod-full-template)
+* The icons found throughout the website were taken from [Font Awesome](https://fontawesome.com/)
+
+**Media**
+
+* All the images were made by myself, specifically for the website.
+* Credit to RODNAE Productions for the video featured on the tournaments page: https://www.pexels.com/video/men-playing-computer-gaming-7914780/
