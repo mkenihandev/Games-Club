@@ -1,5 +1,7 @@
 # Games Club
 
+![Image of the website run through ami dot responsivedesign dot is](assets/images/readme-images/amiresponsive.PNG)
+
 The Games Club Website was designed in line with Portfolio Project 1's guidelines and aimed at people looking to join a club of likeminded people looking to play competitive and co-operative games for fun, or to join competitive tournaments to play for prizes.
 
 The Users of this website, the target being people who are enthusiastic about video games, or simply just want to relax with friends, will be provided with all the information they need on both meetups to play games and tournaments alike, as well as how to sign up, and where they can find more information such as social media sites like Facebook or Twitter. 
@@ -74,11 +76,14 @@ The goal of these sketches and details was to get a rough outline of what a user
 
 * **Bugs I solved** 
     * I had a lot of trouble with the homepage image stretching the grid cell, and as such would push content around it. 
-    * I wanted the image to be fully visible, as I didn't think it looked very good when zoomed in on mobile devices, using cover.
-    * I eventually settled on a 100% 100% approach, for mobile sizes only, so that it would stretch a little bit, but not too much.
+        * I wanted the image to be fully visible, as I didn't think it looked very good when zoomed in on mobile devices, using cover.
+        * I eventually settled on a 100% 100% approach, for mobile sizes only, so that it would stretch a little bit, but not too much.
 
     * The sign up page labels were giving me trouble in that they would not display next to my checkboxes, but instead above.
-    * This was solved by using styling to display the labels inline, as well as swapping the order of the label and input in the html.
+        * This was solved by using styling to display the labels inline, as well as swapping the order of the label and input in the html.
+
+    * Initially running the html through the validator gave issues, as I had used many hyphens to create a large "break" in the html.
+        * I first solved this using many tilde instead, but this was eventually advised against by a Mentor on Slack and so was removed.
 
 * **Validation Testing**
     * HTML
@@ -86,6 +91,11 @@ The goal of these sketches and details was to get a rough outline of what a user
 
     * CSS
         * There were no errors when passed through the [Jigsaw W3C Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input+with_options)
+
+## Deployment
+<hr>
+
+This website was deployed to GitHub pages. The link can be found here: https://mkenihandev.github.io/Games-Club/
 
 ## Credits
 <hr>
