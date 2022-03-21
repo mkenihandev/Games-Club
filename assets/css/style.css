@@ -193,6 +193,7 @@ nav {
     display: grid;
     grid-template-columns: 1rem 1fr 1rem;
     grid-template-rows: 25vh min-content min-content;
+    gap: 10px;
 }
 
 
@@ -200,7 +201,6 @@ nav {
     background: url('../images/trophypage-image.png') no-repeat center center / contain;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    border-radius: 10.3rem;
 }
 
 #tournaments-heading {
@@ -216,7 +216,8 @@ nav {
 
 #tournaments-video {
     grid-column: 2 / 3;
-    max-width: 100%;
+    max-width: 75%;
+    margin: 0 auto;
 }
 
 video {
@@ -249,7 +250,7 @@ video {
     border-radius: 0.6rem;
     padding: 0.6rem;
     position: relative;
-    max-width: 40vw;
+    max-width: 25rem;
     min-width: 18.75rem;
     margin: 0 auto;
 }
@@ -296,11 +297,11 @@ footer {
     color: rgba(211, 100, 82, 1);
 }
 
-/* ---------------------------------------------------------Media Queries---------------------------------------------------------  */
+/* ---------------------------------------------------------Tablet Media Sizes---------------------------------------------------------  */
 
-@media screen and (min-width: 31.25rem) {
+@media screen and (min-width: 500px) {
 
-    /* ---------------------------------------------------------Header/Navbar---------------------------------------------------------  */
+    /* -------------------------------------Header and Navbar------------------------------------------  */
     
     #menu {
         grid-template-columns:  1fr 2fr 2fr 2fr;
@@ -325,11 +326,7 @@ footer {
         display: inline-block;
     }
 
-    body {
-        background-color: black;
-    }
-
-    /* ---------------------------------------------------------Homepage About Section---------------------------------------------------------  */
+    /* -------------------------------------Homepage About Section------------------------------------------  */
 
     #about {
         grid-template-columns: 1rem 1fr 1rem;
@@ -353,7 +350,7 @@ footer {
         top: 50%;
     }
 
-    /* ---------------------------------------------------------Meetup Section---------------------------------------------------------  */
+    /* -------------------------------------Meetup Section------------------------------------------  */
 
     #meetup {
         grid-template-columns: 1rem 1fr 1fr 1fr 1fr 1fr 1rem;
@@ -375,5 +372,75 @@ footer {
 
     #meetup-text {
         grid-column: 4 / 5;
+    }
+}
+
+/* ---------------------------------------------------------Desktop Media Sizes---------------------------------------------------------  */
+
+@media screen and (min-width: 1000px) {
+
+    /* -------------------------------------Homepage About Section------------------------------------------  */
+
+    #about {
+        grid-template-columns: 1rem 1fr 2fr 1rem;
+        grid-template-rows: 0.2rem min-content 0.2rem;
+        align-items: center;
+    }
+
+    #about-image {
+        background: url('../images/homepage-image-1.png') no-repeat center center / contain;
+        grid-column: 3 / 4;
+    }
+
+    #about-text {
+        width: 25vw;
+        top: 0;
+        background-color: rgba(211, 100, 82, 0.9);
+        grid-column: 2 / 3;
+        margin-right: 0px;
+        font-size: 110%;
+    }
+
+    /* -------------------------------------Meetup Section------------------------------------------  */
+
+    #meetup {
+        background: url('../images/meetup-image.png') 0 55% / cover no-repeat;
+    }
+
+    #meetup-times {
+        top: 50%;
+    }
+
+    #meetup-times div {
+        background-color: rgba(211, 100, 82, 0.9);
+    }
+
+    #meetup-text {
+        font-size: 110%;
+    }
+
+    /* -------------------------------------Tournaments Page------------------------------------------  */
+
+    #tournaments {
+        grid-template-rows: 50vh min-content min-content;
+    }
+    
+    #tournaments-heading {
+        grid-row: 1 / 2;
+        bottom: 0;
+        top: 2rem;
+        height: min-content;
+        font-size: 110%;
+    }
+
+    #tournaments-image {
+        background: url('../images/trophypage-image.png') no-repeat center center / contain;
+        min-width: 100%;
+        border-radius: 0;
+    }
+    
+    #tournaments-about {
+        max-width: 60vw;
+        font-size: 110%;
     }
 }

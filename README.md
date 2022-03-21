@@ -69,6 +69,16 @@ The goal of these sketches and details was to get a rough outline of what a user
 
 ![Image of the footer. Features three icons of each popular website in a contrasting color to the background](assets/images/readme-images/footer.PNG)
 
+## Bugs
+<hr>
+
+* **Bugs I solved** 
+    * I had a lot of trouble with the homepage image stretching the grid cell, and as such would push content around it. 
+    * I wanted the image to be fully visible, as I didn't think it looked very good when zoomed in on mobile devices, using cover.
+    * I eventually settled on a 100% 100% approach, for mobile sizes only, so that it would stretch a little bit, but not too much.
+
+    * The sign up page labels were giving me trouble in that they would not display next to my checkboxes, but instead above.
+    * This was solved by using styling to display the labels inline, as well as swapping the order of the label and input in the html.
 
 
 Credit to RODNAE Productions for the video featured on the tournaments page: https://www.pexels.com/video/men-playing-computer-gaming-7914780/
