@@ -73,6 +73,7 @@ nav {
     grid-template-rows: 1fr 1fr 1fr;
     list-style-type: none;
     text-transform: uppercase;
+    height: 100%;
 }
 
 #logo {
