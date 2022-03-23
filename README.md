@@ -20,8 +20,6 @@ The Games Club Website was designed in line with Portfolio Project 1's guideline
 
 The Users of this website, the target being people who are enthusiastic about video games, or simply just want to relax with friends, will be provided with all the information they need on both meetups to play games and tournaments alike, as well as how to sign up, and where they can find more information such as social media sites like Facebook or Twitter. 
 
-(Insert image of website layout on different screen sizes)
-
 ## Initial UX Goals and Designs
 <hr>
 
