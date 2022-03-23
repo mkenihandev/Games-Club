@@ -102,10 +102,10 @@ The goal of these sketches and details was to get a rough outline of what a user
 
 * **Validation Testing**
     * HTML
-        * There were no errors when validated on [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html#textarea)
+        * There were no errors when validated on [W3C Validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmkenihandev.github.io%2FGames-Club%2F)
 
     * CSS
-        * There were no errors when passed through the [Jigsaw W3C Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input+with_options)
+        * There were no errors when passed through the [Jigsaw W3C Validation Service](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmkenihandev.github.io%2FGames-Club%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
     * Accessibility 
         * The site was run through both desktop and mobile Lighthouse and scored above 95 in every section.
