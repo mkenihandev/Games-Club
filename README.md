@@ -114,6 +114,12 @@ The goal of these sketches and details was to get a rough outline of what a user
 
 ![Image of mobile scores for the website through lighthouse. 98 Performance 100 Accessibility 100 Best Practices 95 SEO](assets/images/readme-images/lighthouse-mobile.PNG)
 
+* **Manual Testing**
+
+I tested the website on multiple devices and browsers to try ensure accessibility, after a couple issues with the navbar on other browsers I got it running great on many browsers, except for Internet Explorer. The entire website, while mostly strictly functional, looks like a mess only on Internet Explorer. Unfortunately it was too late in the project to fix this entirely.
+
+![Image of a spreadsheet showing all the features of the website work OK on all browsers and devices I tested except for Internet Explorer](assets/images/readme-images/manual-testing.PNG)
+
 ## Deployment
 <hr>
 
