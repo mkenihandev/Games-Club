@@ -137,13 +137,13 @@ nav {
 }
 
 #about-text a {
-    color: #415172;
+    color: #D2EEFC;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 #about-text a:hover {
-    color: #975583;
+    color: #afd5e8;
     text-decoration: underline;
 }
 
@@ -256,7 +256,6 @@ video {
     margin: 0 auto;
 }
 
-
 #signup-form {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
@@ -267,6 +266,7 @@ video {
     border-radius: 0.6rem;
     text-align: left;
     min-width: 18.75rem;
+    width: 50vw;
     align-items: center;
 }
 
@@ -373,6 +373,16 @@ footer {
 
     #meetup-text {
         grid-column: 4 / 5;
+    }
+
+    /* -------------------------------------Meetup Section------------------------------------------  */
+
+    input[type=text] {
+        width: 30vw;
+    }
+
+    input[type=email] {
+        width: 30vw;
     }
 }
 
