@@ -1,3 +1,17 @@
+# Games Club Table of Contents
+
+- [Games Club](#games-club)
+
+- [Initial UX Goals and Designs](#initial-ux-goals-and-designs)
+
+- [Features of the Website](#features-of-the-website)
+
+- [Testing and Bug Solving](#testing-and-bug-solving)
+
+- [Deployment](#deployment)
+
+- [Credits](#credits)
+
 # Games Club
 
 ![Image of the website run through ami dot responsivedesign dot is](assets/images/readme-images/amiresponsive.PNG)
