@@ -121,13 +121,32 @@ The goal of these sketches and details was to get a rough outline of what a user
 
 This website was deployed to GitHub pages. The link can be found here: https://mkenihandev.github.io/Games-Club/
 
+**To clone this repository:**
+
+* Go to the top of the page and click "Fork" in the top right ![Image of fork button](assets/images/readme-images/fork.PNG) 
+* Or by clicking "Code" at the top of the repository then copying the URL 
+* Use ```git clone url``` in your Git Bash. 
+
+**To deploy this site locally:** 
+
+* Sign up to https://gitpod.io/ and install the extension for your browser. 
+* After this is done you can click the "Gitpod" button at the top of this repository ![Image of Gitpod button](assets/images/readme-images/gitpod.PNG) 
+* This will automatically set up a new workspace for you.
+
+**To deploy this site remotely:**
+
+* From the project's [repository](https://github.com/mkenihandev/Games-Club), go to the Settings tab.
+* From the left-hand menu, select the Pages tab.
+* Under the Source section, select the Main branch from the drop-down menu and click Save.
+* A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
+
 ## Credits
 <hr>
 
 **Content**
     
 * The template for the project was taken from [Code Institutes Full Template](https://github.com/Code-Institute-Org/gitpod-full-template)
-* The icons found throughout the website were taken from [Font Awesome](https://fontawesome.com/)
+* The icons found throughout the website were taken from [Font Awesome website](https://fontawesome.com/)
 
 **Media**
 
